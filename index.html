@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-		<div class="container">
+		<div class="grid">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-3">
 					<!-- TODO add icon -->
 					<img class="logo" src="http://placehold.it/100x100">
 				</div>
-				<div class="col-md-9 text-uppercase text-right">
-					<h1 class="tittle-super text fine">Elodie Heslouis Rios</h1>
-					<h3>Front-End Developer</h3>
+				<div class="col-9" align="right">
+					<p class="title-super">Elodie Heslouis</p>
+					<p class="title-job">Front-End Developer</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-12">
 					<hr>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<!-- TODO add pic -->
-					<img class="main-image" src="http://placehold.it/900x200">
+				<div class="col-12">
+					<picture class="main-image">
+						<source media="(min-width: 600px)" srcset="images/mainimage_large.jpg 2x, images/mainimage_medium.jpg 1x">
+						<source srcset="images/mainimage_medium.jpg 2x, images/mainimage_small.jpg 1x">
+						<img class="main-image" src="images/mainimage_medium.jpg" alt="vatican stairs" width = "100%">
+					</picture>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<h2>Featured Work</h2>
+				<div class="col-12 feature-work">
+					<p>Featured Work</p>
 				</div>
 			</div>
-			<div class="row text-center">
-				<div class="col-md-4">
-					<img class="img-respnsive work-img" src="http://placehold.it/150x150" data-toggle="modal">
-					<h3>Appify</h3>
-					<p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
+			<div class="row" align="center">
+				<div class="col-4">
+					<a href="https://github.com/udacity/Appify/">
+						<img class="work-img" src="http://placehold.it/150x150" width = "100%">
+					</a>
+					<p class="work-title">Appify</p>
+					<p class="link"><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
 				</div>
-				<div class="col-md-4">
-					<img class="img-respnsive work-img" src="http://placehold.it/150x150" data-toggle="modal">
-					<h3>Sunflower</h3>
-					<p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
+				<div class="col-4">
+					<img class="work-img" src="http://placehold.it/150x150" width = "100%">
+					<p class="work-title">Sunflower</p>
+					<p class="link"><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
 				</div>
-				<div class="col-md-4">
-					<img class="img-respnsive work-img" src="http://placehold.it/150x150" data-toggle="modal">
-					<h3>Bokeh</h3>
-					<p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
+				<div class="col-4">
+					<img class="work-img" src="http://placehold.it/150x150" width = "100%">
+					<p class="work-title">Bokeh</p>
+					<p class="link"><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
 				</div>
 			</div>
 		</div>
