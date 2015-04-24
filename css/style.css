@@ -17,12 +17,14 @@ body{
 	font-size: 30px;
 	margin-top: 0.5em;
 	margin-bottom: 0px;
+	text-align: right;
 }
 
 .title-job{
 	font-size: 20px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	text-align: right;
 }
 
 .feature-work{
@@ -34,25 +36,36 @@ body{
 	margin-top:10px;
 	margin-left:10px;
 	margin-right: 10px;
-	width: calc(100% - 20px);
+	width: calc( 100% - 20px );
 	max-width: 100px;
+}
+
+.main-image{
+	width : 100%;
 }
 
 .work-title{
 	font-size: 20px;
 	margin-top: 0.5em;
 	margin-bottom: 0em;
+	text-align: center;
+}
+
+.work-img{
+	max-width: 150px;
+	width: calc( 100% - 20px );
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .link{
 	font-size: 12px;
 	margin-top: 0em;
 	margin-bottom: 0.25em;
+	text-align: center;
 }
 
-.main-image{
-	width = 100%;
-}
 
 @media screen and (min-width: 770px){
 	.grid{
